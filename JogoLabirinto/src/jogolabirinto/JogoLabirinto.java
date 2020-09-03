@@ -1,10 +1,11 @@
+package jogolabirinto;
 public class JogoLabirinto{
     private static final char PAREDE_VERTICAL = '|';
     private static final char PAREDE_HORIZONTAL = '-'; 
     private static final char VAZIO = ' ';
-    private static final char TAMANHO = 15;
+    private static final char TAMANHO = 10;
     private static final char PAREDE_INTERNA = '@';
-    private static final double PROBABILIDADE = 0.8;
+    private static final double PROBABILIDADE = 0.7;
     private static final char INICIO = 'I';
     private static final char DESTINO = 'D';
     private static int linhaInicio, colunaInicio;
